@@ -1,0 +1,6 @@
+framework module Pods_Chip__Hotel_Booking_Chatbot {
+  umbrella header "Pods-Chip- Hotel Booking Chatbot-umbrella.h"
+
+  export *
+  module * { export * }
+}

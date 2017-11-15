@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ukt-oy-2KI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Black</string>
+            <string>Avenir-Book</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Chip-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chip__Hotel_Booking_Chatbot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message Chip" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTV-md-3ZO">
+                                <rect key="frame" x="16" y="318" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" keyboardType="alphabet" keyboardAppearance="light" returnKeyType="send" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chip is a hotel booking chatbot. Just begin by saying &quot;Hi!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktE-uc-5b5">
+                                <rect key="frame" x="16" y="116" width="343" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="JlX-Z9-AbD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.56442599829999995" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VTl-RU-3Nc">
+                                <rect key="frame" x="75" y="356" width="225" height="37"/>
+                                <color key="backgroundColor" red="0.0" green="0.56442599829999995" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Send Message to Chip">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Avenir-Book"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="sendMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HiY-dM-z89"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mTV-md-3ZO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1Rg-Pc-xzo"/>
+                            <constraint firstItem="VTl-RU-3Nc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="2ax-5T-8wi"/>
+                            <constraint firstItem="mTV-md-3ZO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5iA-tK-3zI"/>
+                            <constraint firstItem="mTV-md-3ZO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8xv-kh-9rj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTl-RU-3Nc" secondAttribute="trailing" constant="75" id="BSD-zt-NzJ"/>
+                            <constraint firstItem="ktE-uc-5b5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CeD-s4-b9Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ktE-uc-5b5" secondAttribute="trailing" constant="16" id="KjW-BK-iXP"/>
+                            <constraint firstItem="ktE-uc-5b5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PO9-E1-PWq"/>
+                            <constraint firstItem="ktE-uc-5b5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RLW-m7-JKh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mTV-md-3ZO" secondAttribute="trailing" constant="16" id="WYf-uB-03D"/>
+                            <constraint firstItem="VTl-RU-3Nc" firstAttribute="top" secondItem="mTV-md-3ZO" secondAttribute="bottom" constant="8" id="fYr-tS-ZtR"/>
+                            <constraint firstItem="VTl-RU-3Nc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jNc-ls-Sfm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chip" id="80K-6n-ylN"/>
+                    <connections>
+                        <outlet property="chipResponse" destination="ktE-uc-5b5" id="FvM-hu-iLl"/>
+                        <outlet property="messageField" destination="mTV-md-3ZO" id="bRe-HK-6GX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="72"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="naI-at-ba3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ukt-oy-2KI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="dV3-UY-aRh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="r0e-jD-Z0b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q30-38-Wfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="72"/>
+        </scene>
+    </scenes>
+</document>
