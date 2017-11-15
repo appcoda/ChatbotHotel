@@ -59,7 +59,7 @@
 		8BA624E91F59C0430071E49A = {
 			isa = PBXGroup;
 			children = (
-				8BC6E4D51F5A292000033301 /* Chatbot Starter Project */,
+				8BC6E4D51F5A292000033301 /* ChatbotHotel */,
 				8BA624F31F59C0430071E49A /* Products */,
 				532533BE0DBFBB781EC92C3C /* Pods */,
 				48C370E3B851717651E88983 /* Frameworks */,
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BC6E4D51F5A292000033301 /* Chatbot Starter Project */ = {
+		8BC6E4D51F5A292000033301 /* ChatbotHotel */ = {
 			isa = PBXGroup;
 			children = (
 				8BC6E4D61F5A292000033301 /* ViewController.swift */,
@@ -84,7 +84,7 @@
 				8BC6E4DC1F5A292000033301 /* AppDelegate.swift */,
 				8BC6E4DD1F5A292000033301 /* Info.plist */,
 			);
-			path = "Chatbot Starter Project";
+			path = ChatbotHotel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BA624ED1F59C0430071E49A /* Build configuration list for PBXProject "Chatbot Starter Project" */;
+			buildConfigurationList = 8BA624ED1F59C0430071E49A /* Build configuration list for PBXProject "ChatbotHotel" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -353,7 +353,7 @@
 			baseConfigurationReference = 2E55207C91FBF3F3919B9481 /* Pods-Chip- Hotel Booking Chatbot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/Chatbot Starter Project/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ChatbotHotel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.chatbotdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,7 +367,7 @@
 			baseConfigurationReference = 4E38AACC48C53DB13F6F2EEE /* Pods-Chip- Hotel Booking Chatbot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/Chatbot Starter Project/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ChatbotHotel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.chatbotdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BA624ED1F59C0430071E49A /* Build configuration list for PBXProject "Chatbot Starter Project" */ = {
+		8BA624ED1F59C0430071E49A /* Build configuration list for PBXProject "ChatbotHotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BA625021F59C0430071E49A /* Debug */,
